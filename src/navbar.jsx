@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import logo from "./assets/adidas-logo.jpg";  
-
+import logo from "./assets/adidas-logo.jpg";
 
 const navBarComponent = [
   {
