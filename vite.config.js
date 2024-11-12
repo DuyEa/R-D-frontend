@@ -7,6 +7,7 @@ export default defineConfig({
     react(),
     federation({
       name: "login",
+      filename: "remoteEntry.js",
       exposes: {
         "./Login": "./src/Login.jsx",
       },
