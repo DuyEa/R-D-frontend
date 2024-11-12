@@ -8,14 +8,14 @@ export default defineConfig({
     federation({
       name: "login",
       exposes: {
-        "./Login": "./src/Login.jsx", 
+        "./Login": "./src/Login.jsx",
       },
       shared: ["react", "react-dom", "tailwindcss"],
     }),
   ],
   build: {
-    target: "esnext",
-    minify: false,
-    cssCodeSplit: false,
+    target: "es2020",
+    minify: true,
+    cssCodeSplit: true,
   },
 });
