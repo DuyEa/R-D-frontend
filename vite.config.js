@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: "shell",
+      name: "login",
       exposes: {
         "./Login": "./src/Login.jsx", 
       },
