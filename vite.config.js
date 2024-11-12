@@ -15,8 +15,8 @@ export default defineConfig({
     }),
   ],
   build: {
-    target: "es2020",
-    minify: true,
-    cssCodeSplit: true,
+    target: "esnext",
+    minify: false,
+    cssCodeSplit: false,
   },
 });
